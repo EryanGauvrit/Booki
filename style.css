@@ -428,11 +428,228 @@ nav{
 .popularpicturesreviews{
     display: flex;
     font-size: 75%;
-    margin-top: 45px;
+    margin-top: 30%;
     color: #0065FC;
 }
 
-            /* Popular Accomodations show more link */
+                    /* Activities Block */
+#activitiesblock{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#activitiesblocktitle{
+    margin: 0;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 120%;
+}
+                /* First Activities Block */
+#firstactivitiesblock{
+    width: 48%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+            /* Activity One */
+#activityone{
+    height: 100%;
+    width: 300px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 1px 1px 10px black;
+    margin-right: 30px;
+    transition: 0.3s;
+}
+
+#activityone:hover{
+    width: 305px;
+    box-shadow: 5px 5px 15px black;
+}
+
+#activityonepicture{
+    height: 350px;
+    position: relative;
+    overflow: hidden;    
+    border-radius: 15px 15px 0 0;
+}
+
+#activityonepicture img{
+    width: 190%;
+    position: absolute;    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+            /* Activity Two */
+#activitytwo{
+    height: 215px;
+    width: 300px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 1px 1px 10px black;
+    transition: 0.3s;
+}
+
+#activitytwo:hover{
+    width: 305px;
+    box-shadow: 5px 5px 15px black;
+}
+
+#activitytwopicture{
+    height: 165px;
+    position: relative;
+    overflow: hidden;    
+    border-radius: 15px 15px 0 0;
+}
+
+#activitytwopicture img{
+    width: 100%;
+    position: absolute;    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+            /* Activity Three */
+#activitythree{
+    height: 145px;
+    width: 300px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 1px 1px 10px black;
+    transition: 0.3s;
+}
+
+#activitythree:hover{
+    width: 305px;
+    box-shadow: 5px 5px 15px black;
+}
+
+#activitythreepicture{
+    height: 95px;
+    position: relative;
+    overflow: hidden;    
+    border-radius: 15px 15px 0 0;    
+}
+
+#activitythreepicture img{
+    width: 120%;
+    position: absolute;    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+                /* Second Activities Block */
+#secondactivitiesblock{
+    width: 48%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}                
+            /* Activity Four */
+#activityfour{
+    height: 100%;
+    width: 300px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 1px 1px 10px black;
+    margin-right: 30px;
+    transition: 0.3s;
+}
+
+#activityfour:hover{
+    width: 305px;
+    box-shadow: 5px 5px 15px black;
+}
+
+#activityfourpicture{
+    height: 350px;
+    position: relative;
+    overflow: hidden;    
+    border-radius: 15px 15px 0 0;
+}
+
+#activityfourpicture img{
+    width: 190%;
+    position: absolute;    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+            /* Activity Five */
+#activityfive{
+    height: 170px;
+    width: 300px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 1px 1px 10px black;
+    transition: 0.3s;
+}
+
+#activityfive:hover{
+    width: 305px;
+    box-shadow: 5px 5px 15px black;
+}
+
+#activityfivepicture{
+    height: 125px;
+    position: relative;
+    overflow: hidden;    
+    border-radius: 15px 15px 0 0;
+}
+
+#activityfivepicture img{
+    width: 100%;
+    position: absolute;    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+            /* Activity Six */
+#activitysix{
+    height: 190px;
+    width: 300px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 1px 1px 10px black;
+    transition: 0.3s;
+}
+
+#activitysix:hover{
+    width: 305px;
+    box-shadow: 5px 5px 15px black;
+}
+
+#activitysixpicture{
+    height: 140px;
+    position: relative;
+    overflow: hidden;    
+    border-radius: 15px 15px 0 0;
+}
+
+#activitysixpicture img{
+    width: 100%;
+    position: absolute;    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+            /* General Modif. */
+.activitiesquote{
+    margin-top: 5%;
+    margin-left: 6%;
+}
+
+.activities a{
+    color: black;
+    text-decoration: none;
+}
 
             /* Modified stars reviews */
 .starsreviews{

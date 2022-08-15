@@ -67,3 +67,23 @@ nav{
 #popularaccomodations{
     width: 800px;
 }
+
+                /* Activities Block */
+#activitiesblock{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+        /* First Activities Block */
+#firstactivitiesblock{
+    width: 100%;
+    margin-bottom: 20px;
+}   
+
+                /* Second Activities Block */
+#secondactivitiesblock{
+    width: 100%;
+    margin-top: 20px;
+}

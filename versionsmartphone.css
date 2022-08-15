@@ -264,3 +264,102 @@ header{
 .popularpictures img{
     width: 150%;        
 }
+
+                        /* Activities Block */
+#activitiesblock{
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 40px 0;
+}
+
+#activitiesblocktitle{
+    width: 450px;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 120%;
+}
+                /* First Activities Block */
+#firstactivitiesblock{
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px 0;
+}
+            /* Activity One */
+#activityone{
+    height: 200px;
+    width: 450px;
+    margin-right: 0;
+}
+
+#activityonepicture{
+    height: 150px;
+}
+
+            /* Activity Two */
+#activitytwo{
+    height: 200px;
+    width: 450px;
+    margin-right: 0;
+}
+
+#activitytwopicture{
+    height: 150px;
+}
+            /* Activity Three */
+#activitythree{
+    height: 200px;
+    width: 450px;
+    margin-right: 0;
+}
+
+#activitythreepicture{
+    height: 150px;
+}
+                /* Second Activities Block */
+#secondactivitiesblock{
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px 0;
+}
+            /* Activity Four */
+#activityfour{
+    height: 200px;
+    width: 450px;
+    margin-right: 0;
+}
+
+#activityfourpicture{
+    height: 150px;
+}
+            /* Activity Five */
+#activityfive{
+    height: 200px;
+    width: 450px;
+    margin-right: 0;
+}
+
+#activityfivepicture{
+    height: 150px;
+}
+            /* Activity Six */
+#activitysix{
+    height: 200px;
+    width: 450px;
+    margin-right: 0;
+}
+
+#activitysixpicture{
+    height: 150px;
+}
+
+.activitiesquote{
+    margin-top: 4%;
+    margin-left: 6%;
+}            
