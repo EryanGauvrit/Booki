@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=0.86, user-scalable=no">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" media="all and (min-width: 768px) and (max-width: 992px) " href="versiontablette.css" />
+        <link rel="stylesheet" media="all and (max-width: 768px)" href="versionsmartphone.css" />
+        <title>Booki</title>        
+    </head>
+
+    <body>
+        <main> 
+
+            <!-- Header -->
+            <header>
+
+                <!-- Logo -->
+                <img src="images/logo/Booki@3x.png" id="logo" alt="Booki"> 
+
+                <!-- Navigation -->
+                <nav>
+                    <ul id="navlist">
+                        <li id="navaccomodations"><a href="#accomodations" class="navigation" >Hébergements</a></li>
+                        <li id="navactivities"><a href="#activities" class="navigation" >Activités</a></li>
+                    </ul>  
+                </nav>
+            </header>
+
+            <!-- Page block -->
+            <div id="page">
+
+                <!-- Search form-->
+                <div id="searchformblock">
+                    <h1 id="searchtitle"> Trouvez votre hébergement pour des vacances de rêve</h1>
+                    <p id="searchquote">En plein centre ville ou en pleine nature</p>
+
+                    <!-- Search bar : icon + bar + submit -->
+                    <form method="get">
+                        <p id="searchformitems">
+                            <i class="fa-solid fa-location-dot" id="searchbaritem"></i>
+                            <input type="search" name="searchbar" id="searchbar" value="Marseille, France"/>
+                            <button type="submit" name="searchsubmit" id="searchsubmit">Rechercher</button>
+                            <button type="submit" name="searchsubmitphone" id="searchsubmitphone"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </p>
+                    </form>
+                </div>
+
+                <!-- Add filters -->
+                <div id="filtersblock">
+                    <ul id="filterslist">
+                        <li class="filterslistitem" id="filterstitle">Filtres</li>
+                        <li class="filterslistitem"><a href="#" class="filterslistlink"><p class="filtersicon"><i class="fa-solid fa-money-bill-wave" id="filtericoneco"></i></p>Économique</a></li>
+                        <li class="filterslistitem"><a href="#" class="filterslistlink"><p class="filtersicon"><i class="fa-solid fa-child-reaching" id="filtericonfamily"></i></p>Familial</a></li>
+                        <li class="filterslistitem"><a href="#" class="filterslistlink"><p class="filtersicon"><i class="fa-solid fa-heart" id="filtericonheart"></i></p>Romantique</a></li>
+                        <li class="filterslistitem"><a href="#" class="filterslistlink"><p class="filtersicon"><i class="fa-solid fa-dog" id="filtericonanimals"></i></p>Animaux autorisés</a></li>
+                    </ul>
+                </div>
+
+                <!-- Search result -->
+                <div id="searchresult">
+                    <i class="fa-solid fa-info" id="searchresultitem"></i>
+                    <p>Plus de 500 logements sont disponibles dans cette ville</p>
+                </div>
+
+                <!-- Accomodations block -->
+                <section id="accomodationsblock">
+
+                    <!-- Classic accomodations block -->
+                    <article id="classicaccomodations">
+
+                        <!-- Title -->
+                        <h1 id="classicaccomodationstitle">Hébergements à Marseille</h1>
+
+                        <!-- Classic Accomodations Cards -->
+
+                        <!-- One Card -->
+                        <figure class="classicaccomodationscards">
+                            <a href="#">
+                                <!-- Picture -->
+                                <div class="classicpictures"><img src="images/hebergements/1_xlarge/cannebiere-xlarge.jpg" alt="Auberge La Cannebière"/></div>
+                                <!-- Body card -->
+                                <figcaption class="classicpicturesquote">
+                                    <!-- Title card -->
+                                    <div class="classicpicturestitle">
+                                        <h2>Auberge La Cannebière</h2>
+                                    </div>
+                                    <!-- Night details -->
+                                    <div class="classicpicturesnight">
+                                        <p>Nuit à partir de <strong>25€</strong></p>
+                                    </div>
+                                    <!-- User reviews-->
+                                    <div class="classicpicturesreviews">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <p class="starsreviews"><i class="fa-solid fa-star"></i></p>
+                                    </div>
+                                </figcaption>
+                            </a>
+                        </figure>
+
+                        <!-- Two Cards -->
+                        <figure class="classicaccomodationscards">
+                            <a href="#">
+                                <!-- Picture -->
+                                <div class="classicpictures"><img src="images/hebergements/3_medium/hotelport-medium.jpg" alt="Hôtel du port"/></div>
+                                <!-- Body card -->
+                                <figcaption class="classicpicturesquote">
+                                    <!-- Title card -->
+                                    <div class="classicpicturestitle">
+                                        <h2>Hôtel du port</h2>
+                                    </div>
+                                    <!-- Night details -->
+                                    <div class="classicpicturesnight">
+                                        <p>Nuit à partir de 52<strong>€</strong></p>
+                                    </div>
+                                    <!-- User reviews-->
+                                    <div class="classicpicturesreviews">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </figcaption>
+                            </a>
+                        </figure>
+                        <!-- Three Cards -->
+                        <figure class="classicaccomodationscards">
+                            <a href="#">
+                                <!-- Picture -->
+                                <div class="classicpictures"><img src="images/hebergements/3_medium/hotelmouettes-medium.jpg" alt="Hôtel Les mouettes"/></div>
+                                <!-- Body card -->
+                                <figcaption class="classicpicturesquote">
+                                    <!-- Title card -->
+                                    <div class="classicpicturestitle">
+                                        <h2>Hôtel Les mouettes</h2>
+                                    </div>
+                                    <!-- Night details -->
+                                    <div class="classicpicturesnight">
+                                        <p>Nuit à partir de 76<strong>€</strong></p>
+                                    </div>
+                                    <!-- User reviews-->
+                                    <div class="classicpicturesreviews">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <p class="starsreviews"><i class="fa-solid fa-star"></i></p>
+                                    </div>
+                                </figcaption>
+                            </a>
+                        </figure>
+                        <!-- Four Cards -->
+                        <figure class="classicaccomodationscards">
+                            <a href="#">
+                                <!-- Picture -->
+                                <div class="classicpictures"><img src="images/hebergements/4_small/hotelmer-small.jpg" alt="Hôtel de la mer"/></div>
+                                <!-- Body card -->
+                                <figcaption class="classicpicturesquote">
+                                    <!-- Title card -->
+                                    <div class="classicpicturestitle">
+                                        <h2>Hôtel de la mer</h2>
+                                    </div>
+                                    <!-- Night details -->
+                                    <div class="classicpicturesnight">
+                                        <p>Nuits à partir de 46<strong>€</strong></p>
+                                    </div>
+                                    <!-- User reviews-->
+                                    <div class="classicpicturesreviews">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <p class="starsreviews"><i class="fa-solid fa-star"></i></p>
+                                        <p class="starsreviews"><i class="fa-solid fa-star"></i></p>
+                                    </div>
+                                </figcaption>
+                            </a>
+                        </figure>
+                        <!-- Five Cards -->
+                        <figure class="classicaccomodationscards">
+                            <a href="#">
+                                <!-- Picture -->
+                                <div class="classicpictures"><img src="images/hebergements/2_large/aubergepanier-large.jpg" alt="Auberge Le Panier"/></div>
+                                <!-- Body card -->
+                                <figcaption class="classicpicturesquote">
+                                    <!-- Title card -->
+                                    <div class="classicpicturestitle">
+                                        <h2>Auberge Le Panier</h2>
+                                    </div>
+                                    <!-- Night details -->
+                                    <div class="classicpicturesnight">
+                                        <p>Nuits à partir de <strong>23€</strong></p>
+                                    </div>
+                                    <!-- User reviews-->
+                                    <div class="classicpicturesreviews">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <p class="starsreviews"><i class="fa-solid fa-star"></i></p>
+                                    </div>
+                                </figcaption>
+                            </a>
+                        </figure>
+                        <!-- Six Cards -->
+                        <figure class="classicaccomodationscards">
+                            <a href="#">
+                                <!-- Picture -->
+                                <div class="classicpictures"><img src="images/hebergements/1_xlarge/hotelamina-xlarge.jpg" alt="Hôtel chez Amina"/></div>
+                                <!-- Body card -->
+                                <figcaption class="classicpicturesquote">
+                                    <!-- Title card -->
+                                    <div class="classicpicturestitle">
+                                        <h2>Hôtel chez Amina</h2>
+                                    </div>
+                                    <!-- Night details -->
+                                    <div class="classicpicturesnight">
+                                        <p>Nuits à partir de 96<strong>€</strong></p>
+                                    </div>
+                                    <!-- User reviews-->
+                                    <div class="classicpicturesreviews">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </figcaption>
+                            </a>
+                        </figure>
+
+                        <!-- Classic Accomodations show more link -->
+                        <p id="classicaccomodationslink"><a href="#">Afficher plus</a></p>
+                    </article>
+
+                    <!-- Popular accomodations block-->
+                    <aside id="popularaccomodations">
+                        <!-- Title -->
+                        <div id="popularaccomodationstitleblock">
+                            <h1 id="popularaccomodationstitle">Les plus populaires</h1>
+                            <p id="populartitlestar"><i class="fa-solid fa-star"></i></p>
+                        </div>                        
+
+                        <!-- Popular Accomodations Cards -->
+                        <!-- One Card -->
+                        <figure class="popularaccomodationscards">
+                            <a href="#">
+                                <div class="alignitems">
+                                    <!-- Picture -->
+                                    <div class="popularpictures"><img src="images/hebergements/3_medium/hotelsoleilmatin-medium.jpg" alt="Hôtel Le soleil du matin"/></div>
+                                    <!-- Body card -->
+                                    <div class="popularpicturesquote">
+                                        <!-- Title card -->
+                                        <div class="popularpicturestitle">
+                                            <h2>Hôtel Le soleil du matin</h2>
+                                        </div>
+                                        <!-- Night details -->
+                                        <div class="popularpicturesnight">
+                                            <p>Nuits à partir de 128<strong>€</strong></p>
+                                        </div>
+                                        <!-- User reviews-->
+                                        <div class="popularpicturesreviews">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </figure>
+
+                        <!-- Two Cards -->
+                        <figure class="popularaccomodationscards">
+                            <a href="#">
+                                <div class="alignitems">
+                                    <!-- Picture -->
+                                    <div class="popularpictures"><img src="images/hebergements/3_medium/coeureauchambrehote-medium.jpg" alt="Au cœur de l'eau Chambres d'hôtes"/></div>
+                                    <!-- Body card -->
+                                    <div class="popularpicturesquote">
+                                        <!-- Title card -->
+                                        <div class="popularpicturestitle">
+                                            <h2>Au cœur de l'eau Chambres d'hôtes</h2>
+                                        </div>
+                                        <!-- Night details -->
+                                        <div class="popularpicturesnight">
+                                            <p>Nuit à partir de 71<strong>€</strong></p>
+                                        </div>
+                                        <!-- User reviews-->
+                                        <div class="popularpicturesreviews">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <p class="starsreviews"><i class="fa-solid fa-star"></i></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </figure>
+
+                        <!-- Three Cards -->
+                        <figure class="popularaccomodationscards">
+                            <a href="#">
+                                <div class="alignitems">
+                                    <!-- Picture -->
+                                    <div class="popularpictures"><img src="images/hebergements/1_xlarge/hotelbleublanc-xlarge.jpg" alt="Hôtel Tout bleu et Blanc"/></div>
+                                    <!-- Body card -->
+                                    <div class="popularpicturesquote">
+                                        <!-- Title card -->
+                                        <div class="popularpicturestitle">
+                                            <h2>Hôtel Tout bleu et Blanc</h2>
+                                        </div>
+                                        <!-- Night details -->
+                                        <div class="popularpicturesnight">
+                                            <p>Nuit à partir de 68<strong>€</strong></p>
+                                        </div>
+                                        <!-- User reviews-->
+                                        <div class="popularpicturesreviews">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <p class="starsreviews"><i class="fa-solid fa-star"></i></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </figure>
+
+                    </aside>
+                </section>
+   
+                <!-- Activities -->
+
+                <!-- Footer -->
+            </div>  
+        </main>
+
+        <script src="https://kit.fontawesome.com/bf7b1eaeaa.js" crossorigin="anonymous"></script>
+    </body>
+</html>

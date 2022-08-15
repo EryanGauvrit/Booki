@@ -1,0 +1,453 @@
+                /* Polices */
+@font-face {
+    font-family: 'Raleway-Regular';
+    src: url('polices/Raleway/static/Raleway-Regular.ttf')
+}
+@font-face {
+    font-family: 'Raleway-Bold';
+    src: url('polices/Raleway/static/Raleway-Bold.ttf')
+}
+@font-face {
+    font-family: 'Raleway-Black';
+    src: url('polices/Raleway/static/Raleway-Black.ttf')
+}
+@font-face {
+    font-family: 'Raleway-ExtraBold';
+    src: url('polices/Raleway/static/Raleway-ExtraBold.ttf')
+}
+
+*{
+    box-sizing: border-box; 
+    font-family: 'Raleway-ExtraBold', 'Times New Roman', Times, serif;
+    margin: 0;
+}
+/*
+body{
+    
+    
+}   
+  */
+
+main{
+    width: 80%;
+    margin: auto;    
+}
+
+                /* Header */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 0 0;
+}
+
+nav{
+    width: 280px;
+}
+
+#navlist{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+}
+
+.navigation{
+    font-family: 'Raleway-Regular', 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: black;
+    font-size: 110%;
+    padding-top: 26px;
+    padding-right: 30%;
+    padding-left: 30%;
+}
+
+.navigation:hover{
+    color: #0065FC;
+    border-top: 3px solid #0065FC;
+}
+
+
+#logo{
+    width: 10%;
+}
+
+                /* Search Form */
+
+#searchformblock{
+    margin-top: 30px;
+}
+
+#searchtitle{
+    font-size: 120%;
+    margin: 0 0 10px 0;
+    font-weight: 800;
+}
+
+#searchquote{
+    font-family: 'Raleway-Regular', 'Times New Roman', Times, serif;
+    font-size: 90%;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+    /* Search bar */
+
+#searchformitems{
+    display: flex;
+    align-items: center;
+    width: 350px;  
+    height: 46px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: #F2F2F2;
+}
+
+#searchbaritem{
+    padding: 13px 12px 15px 14px;
+    background-color: #F2F2F2;
+    border-radius: 15px 0 0 15px;
+    width: 12%;
+}
+
+#searchbar{
+    font-family: 'Raleway-ExtraBold', 'Times New Roman', Times, serif;
+    border: none;
+    border-top: 2px solid #F2F2F2;
+    border-bottom: 2px solid #F2F2F2;
+    padding: 13px 5px 13px 15px;
+    width: 54%;
+    height: 45px;
+    font-size: 100%;
+    font-weight: 800;
+}
+
+#searchsubmit{
+    border: 0;
+    padding: 13px;
+    background-color: #0065FC;
+    border-radius: 0 15px 15px 0;
+    color: white;
+    font-size: 100%;
+    font-weight: 800;
+    width: 34%;
+}
+
+#searchsubmitphone{
+    display: none;
+}
+
+                /* Filters bar */
+
+#filtersblock{
+    margin-top: 30px;    
+}
+
+#filterslist{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+.filtersicon{    
+    color: #0065FC;
+    background-color: #DEEBFF;
+    overflow: auto;
+    padding: 10px;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+
+.filterslistitem{
+    display: flex;
+    align-items: center;
+    height: 41px;
+    margin-right: 20px;    
+    font-size: 100%;
+    padding: 10px 20px 10px 0px;
+    border: 2px solid #F2F2F2;
+    border-left: none;
+    border-radius: 50px;
+}
+
+.filterslistlink{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
+#filterstitle{
+    border: none;  
+}
+
+#filtericoneco{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+#filtericonfamily{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+#filtericonheart{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+#filtericonanimals{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+                /* Search result */
+#searchresult{
+    font-family: 'Raleway-Regular', 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    font-size: 100%;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#searchresultitem{    
+    font-weight: 800;
+    text-align: center;
+    line-height: 20px;
+    width: 25px;
+    height: 25px;
+    color: #0065FC;    
+    margin-right: 5px;
+    border: 2px solid #F2F2F2;
+    border-radius: 100%;
+}
+
+                /* Accomodations block */
+#accomodationsblock{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+            /* Classic accomodations block */
+#classicaccomodations{    
+    width: 65%;
+    padding: 2%;
+    padding-top: 1.5%;
+    background-color: #F2F2F2;
+    border-radius: 15px 15px 15px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px 20px;
+
+}
+
+            /* Classic Accomodations Title */
+#classicaccomodationstitle{
+    font-size: 120%;
+    margin-left: 2%;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+            /* Classic Accomodations Cards */
+.classicaccomodationscards{
+    width: 225px;
+    padding: 5px;
+    padding-bottom: 8px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 1px 1px 10px black;
+    transition: 0.3s;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+} 
+
+.classicaccomodationscards a{
+    color: black;
+    text-decoration: none;
+}
+
+.classicaccomodationscards:hover {
+    width: 230px;
+    height: 194px;
+    box-shadow: 5px 5px 15px black;
+}
+
+.classicpictures{
+    height: 100px;
+    position: relative;
+    overflow: hidden;    
+    border-radius: 15px 15px 0 0;
+}
+
+.classicpictures img{
+    width: 110%;
+    position: absolute;    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.classicpicturesquote{    
+    margin-top: 5px;
+    margin-left: 5px;    
+}
+
+.classicpicturestitle{
+    margin-top: 7px;
+    margin-bottom: 5px;
+    font-size: 70%;
+    font-weight: 800;
+}
+
+.classicpicturesnight{
+    font-size: 90%;
+    margin-bottom: 7px;
+}
+
+.classicpicturesreviews{
+    display: flex;
+    font-size: 75%;
+    margin-top: 3px;
+    color: #0065FC;
+}
+
+            /* Classic Accomodations show more link */
+#classicaccomodationslink{
+    margin-left: 2%;
+    margin-top: 10px;     
+    width: 100%;  
+}
+
+#classicaccomodationslink a{
+    font-size: 95%;
+    text-decoration: none;
+    color: black;
+}
+
+                /* Popular accomodations block */
+#popularaccomodations{
+    width: 32%;
+    padding: 2%;
+    padding-top: 1.5%;
+    background-color: #F2F2F2;
+    border-radius: 15px 15px 15px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px 20px;    
+} 
+
+                /* Popular Accomodations Title */
+#popularaccomodationstitleblock{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 5px;
+}
+
+#popularaccomodationstitle{
+    font-size: 120%;
+}
+
+#populartitlestar{
+    font-size: 120%;
+}
+
+                /* Popular Accomodations Cards */
+.popularaccomodationscards{  
+    width: 340px;
+    height: 140px;
+    padding: 5px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 1px 1px 10px black;
+    transition: 0.3s; 
+    margin-top: 5px;  
+    margin-bottom: 5px;
+}
+
+.popularaccomodationscards a{
+    color: black;
+    text-decoration: none;
+}
+
+.popularaccomodationscards:hover {
+    width: 345px;
+    height: 145px;
+    box-shadow: 5px 5px 15px black;
+}
+
+.popularpictures{
+    height: 100%;
+    max-width: 120px;
+    position: relative;
+    overflow: hidden;    
+    border-radius: 15px 0 0 15px;
+    margin-right: 10px;
+    padding: 19.5%;
+}
+
+.popularpictures img{
+    width: 150%;
+    position: absolute;    
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.popularpicturesquote{
+    width: 150px;
+    margin-top: 5px;
+    margin-left: 5px;        
+}
+
+.popularpicturestitle{
+    font-size: 70%;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.popularpicturesnight{
+    font-size: 90%;
+}
+
+.popularpicturesreviews{
+    display: flex;
+    font-size: 75%;
+    margin-top: 45px;
+    color: #0065FC;
+}
+
+            /* Popular Accomodations show more link */
+
+            /* Modified stars reviews */
+.starsreviews{
+    color: #C0C0C0;
+}
+
+            /* Modified balise */
+strong{
+    font-family: 'Raleway-Bold', 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
+p{
+    font-family: 'Raleway-Regular', 'Times New Roman', Times, serif;
+}
+.alignitems{    
+    display: flex;      
+}

@@ -1,0 +1,266 @@
+body{
+    width: 100%;
+}
+main{
+    width: auto;
+    max-width: 768px;
+}
+
+                /* Header */
+nav{
+    width: 100%;
+}
+
+header{
+    flex-direction: column;   
+    padding-top: 20px;
+    width: 100%;
+}
+
+#navlist{   
+    
+    width: 100%;
+    padding-left: 0;
+}
+
+#navaccomodations{
+    text-align: center;
+    width: 50%;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #F2F2F2;
+}
+
+#navactivities{
+    text-align: center;
+    width: 50%;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #F2F2F2;
+}
+.navigation{    
+    text-decoration: none; 
+    color: black;
+    font-size: 150%;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#navaccomodations:hover{
+    color: #0065FC;
+    border-top: 0;
+    border-bottom: 3px solid #0065FC;
+}
+
+#navactivities:hover{
+    color: #0065FC;
+    border-top: 0;
+    border-bottom: 3px solid #0065FC;
+}
+
+.navigation:hover{
+    border-top: 0;
+}
+
+#logo{
+    width: 25%;
+    padding-bottom: 40px;
+    margin: auto;
+} 
+                            /* Page Block */
+
+                /* Search form */
+
+#searchformblock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+#searchtitle{
+    font-size: 250%;
+    width: 80%;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+#searchquote{
+    font-size: 180%;
+    width: 80%;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+    /* search bar */
+
+#searchformitems{
+    height: 64px;
+    width: auto;
+    font-size: 220%;
+    border-radius: 20px 20px 20px 20px;
+    margin-bottom: 40px;
+}
+
+#searchbaritem{
+    padding: 15px 15px 15px 22px;
+    border-radius: 20px 0px 0px 20px;
+    width: 13%;
+}
+
+#searchbar{
+    width: 75%;
+    height: 62px;
+    padding: 13px 10px 13px 20px;
+}
+
+#searchsubmit{
+    display: none;
+}
+
+#searchsubmitphone{
+    display: initial;
+    border: 0;
+    width: 12%;
+    height: 62px;
+    padding: 15px 18px 15px 19px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #0065FC;
+    color: white;
+    font-size: 80%;
+}
+
+                /* Filters bar */
+
+#filtersblock{
+    flex-direction: column;
+    margin: auto;
+    width: 80%;
+}
+
+#filterslist{
+    width: 120%;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 195%;
+}
+
+.filtersicon{
+    font-size: 95%;
+    padding: 25px;
+}
+
+.filterslistitem{
+    margin: 0 20px 20px 0;
+    padding: 40px 30px 40px 0;
+    border: 3px solid #F2F2F2;
+    border-left: none;    
+}
+
+#filterstitle{
+    margin-right: 100%;
+}
+
+#filtericoneco{
+    width: 36px;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+}
+
+#filtericonfamily{
+    width: 36px;
+    height: 31px;
+    line-height: 31px;
+    text-align: center;
+}
+
+#filtericonheart{
+    width: 36px;
+    height: 31px;
+    line-height: 31px;
+    text-align: center;
+}
+
+#filtericonanimals{
+    width: 36px;
+    height: 31px;
+    line-height: 31px;
+    text-align: center;
+}
+
+                /* Search result */
+#searchresult{
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-items: flex-start;
+    width: 80%;
+    font-size: 150%;    
+}
+
+#searchresultitem{
+    margin-right: 20px;
+    width: 40px;
+    height: 35px;
+    line-height: 28px;
+}
+
+                    /* Accomodations block */
+#accomodationsblock{
+    flex-direction: column-reverse;
+    gap: 0;
+    width: 100%;
+    margin: 0;
+}
+
+        /* Classic accomodations block */
+#classicaccomodations{
+    width: 100%;
+    background-color: white;
+    gap: 15px 60px;
+    
+}
+
+#classicaccomodationstitle{
+    width: 450px;
+}
+
+.classicaccomodationscards{
+    width: 450px;
+}
+
+.classicpictures img{
+    width: 100%;        
+}
+
+#classicaccomodationslink{    
+    width: 450px;  
+}
+
+        /* Popular accomodations block */
+#popularaccomodations{
+    width: 100%;
+    gap: 15px 60px;
+    border-radius: 0;
+    padding-bottom: 45px;
+}
+
+#popularaccomodationstitleblock{
+    width: 450px;
+}
+
+.popularaccomodationscards{
+    width: 450px;
+}
+
+.popularpictures{
+    max-width: 150px;
+    padding: 14.75%;
+}
+.popularpictures img{
+    width: 150%;        
+}
