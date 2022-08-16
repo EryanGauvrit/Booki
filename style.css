@@ -45,11 +45,9 @@ nav{
 }
 
 #navlist{
-    list-style-type: none;
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 0;
 }
 
 .navigation{
@@ -640,16 +638,46 @@ nav{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-            /* General Modif. */
+            /* General Modif. Activities Block*/
 .activitiesquote{
     margin-top: 5%;
     margin-left: 6%;
 }
 
-.activities a{
-    color: black;
-    text-decoration: none;
+            /* Footer */
+footer{
+    width: 100%;
+    background-color: #F2F2F2;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
 }
+
+#footerblock{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px 310px;
+}
+
+.footerblocksection{
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+}
+
+.footerblocksection a{
+    font-family: 'Raleway-Regular', 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 90%;
+}
+
+.footertitle{
+    font-size: 105%;
+    margin-bottom: 10px;
+}
+
 
             /* Modified stars reviews */
 .starsreviews{
@@ -667,4 +695,14 @@ p{
 }
 .alignitems{    
     display: flex;      
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+a{
+    color: black;
+    text-decoration: none;
 }
