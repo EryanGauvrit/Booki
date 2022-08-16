@@ -22,6 +22,7 @@
     margin: 0;
 }
 
+
 main{
     width: 80%;
     margin: auto;    
@@ -259,7 +260,7 @@ nav{
     padding: 5px;
     padding-bottom: 8px;
     border-radius: 15px 15px 15px 15px;
-    box-shadow: 1px 1px 10px black;
+    box-shadow: 0.5px 0.5px 10px black;
     transition: 0.3s;
     margin-right: 20px;
     margin-top: 10px;
@@ -274,7 +275,7 @@ nav{
 .classicaccomodationscards:hover {
     width: 230px;
     height: 194px;
-    box-shadow: 5px 5px 15px black;
+    box-shadow: 1px 1px 13px black;
 }
 
 .classicpictures{
@@ -300,7 +301,7 @@ nav{
 .classicpicturestitle{
     margin-top: 7px;
     margin-bottom: 5px;
-    font-size: 70%;
+    font-size: 80%;
     font-weight: 800;
 }
 
@@ -365,7 +366,7 @@ nav{
     height: 140px;
     padding: 5px;
     border-radius: 15px 15px 15px 15px;
-    box-shadow: 1px 1px 10px black;
+    box-shadow: 0.5px 0.5px 10px black;
     transition: 0.3s; 
     margin-top: 5px;  
     margin-bottom: 5px;
@@ -379,7 +380,7 @@ nav{
 .popularaccomodationscards:hover {
     width: 345px;
     height: 145px;
-    box-shadow: 5px 5px 15px black;
+    box-shadow: 1px 1px 13px black;
 }
 
 .popularpictures{
@@ -407,7 +408,7 @@ nav{
 }
 
 .popularpicturestitle{
-    font-size: 70%;
+    font-size: 80%;
     font-weight: 800;
     margin-bottom: 5px;
 }
@@ -454,14 +455,14 @@ nav{
     height: 100%;
     width: 300px;
     border-radius: 15px 15px 15px 15px;
-    box-shadow: 1px 1px 10px black;
+    box-shadow: 0.5px 0.5px 10px black;
     margin-right: 30px;
     transition: 0.3s;
 }
 
 #activityone:hover{
     width: 305px;
-    box-shadow: 5px 5px 15px black;
+    box-shadow: 1px 1px 13px black;
 }
 
 #activityonepicture{
@@ -484,13 +485,13 @@ nav{
     height: 215px;
     width: 300px;
     border-radius: 15px 15px 15px 15px;
-    box-shadow: 1px 1px 10px black;
+    box-shadow: 0.5px 0.5px 10px black;
     transition: 0.3s;
 }
 
 #activitytwo:hover{
     width: 305px;
-    box-shadow: 5px 5px 15px black;
+    box-shadow: 1px 1px 13px black;
 }
 
 #activitytwopicture{
@@ -512,13 +513,13 @@ nav{
     height: 145px;
     width: 300px;
     border-radius: 15px 15px 15px 15px;
-    box-shadow: 1px 1px 10px black;
+    box-shadow: 0.5px 0.5px 10px black;
     transition: 0.3s;
 }
 
 #activitythree:hover{
     width: 305px;
-    box-shadow: 5px 5px 15px black;
+    box-shadow: 1px 1px 13px black;
 }
 
 #activitythreepicture{
@@ -551,14 +552,14 @@ nav{
     height: 100%;
     width: 300px;
     border-radius: 15px 15px 15px 15px;
-    box-shadow: 1px 1px 10px black;
+    box-shadow: 0.5px 0.5px 10px black;
     margin-right: 30px;
     transition: 0.3s;
 }
 
 #activityfour:hover{
     width: 305px;
-    box-shadow: 5px 5px 15px black;
+    box-shadow: 1px 1px 13px black;
 }
 
 #activityfourpicture{
@@ -580,13 +581,13 @@ nav{
     height: 170px;
     width: 300px;
     border-radius: 15px 15px 15px 15px;
-    box-shadow: 1px 1px 10px black;
+    box-shadow: 0.5px 0.5px 10px black;
     transition: 0.3s;
 }
 
 #activityfive:hover{
     width: 305px;
-    box-shadow: 5px 5px 15px black;
+    box-shadow: 1px 1px 13px black;
 }
 
 #activityfivepicture{
@@ -608,13 +609,13 @@ nav{
     height: 190px;
     width: 300px;
     border-radius: 15px 15px 15px 15px;
-    box-shadow: 1px 1px 10px black;
+    box-shadow: 0.5px 0.5px 10px black;
     transition: 0.3s;
 }
 
 #activitysix:hover{
     width: 305px;
-    box-shadow: 5px 5px 15px black;
+    box-shadow: 1px 1px 13px black;
 }
 
 #activitysixpicture{
