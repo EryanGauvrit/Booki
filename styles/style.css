@@ -1,19 +1,19 @@
                 /* Polices */
 @font-face {
     font-family: 'Raleway-Regular';
-    src: url('polices/Raleway/static/Raleway-Regular.ttf')
+    src: url('../polices/Raleway/static/Raleway-Regular.ttf')
 }
 @font-face {
     font-family: 'Raleway-Bold';
-    src: url('polices/Raleway/static/Raleway-Bold.ttf')
+    src: url('../polices/Raleway/static/Raleway-Bold.ttf')
 }
 @font-face {
     font-family: 'Raleway-Black';
-    src: url('polices/Raleway/static/Raleway-Black.ttf')
+    src: url('../polices/Raleway/static/Raleway-Black.ttf')
 }
 @font-face {
     font-family: 'Raleway-ExtraBold';
-    src: url('polices/Raleway/static/Raleway-ExtraBold.ttf')
+    src: url('../polices/Raleway/static/Raleway-ExtraBold.ttf')
 }
 
 *{
@@ -21,12 +21,6 @@
     font-family: 'Raleway-ExtraBold', 'Times New Roman', Times, serif;
     margin: 0;
 }
-/*
-body{
-    
-    
-}   
-  */
 
 main{
     width: 80%;
@@ -52,7 +46,6 @@ nav{
 
 .navigation{
     font-family: 'Raleway-Regular', 'Times New Roman', Times, serif;
-    text-decoration: none;
     color: black;
     font-size: 110%;
     padding-top: 26px;
@@ -648,6 +641,7 @@ nav{
 footer{
     width: 100%;
     background-color: #F2F2F2;
+    margin-top: 40px;
     padding-top: 40px;
     padding-bottom: 40px;
     
@@ -658,7 +652,7 @@ footer{
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    gap: 50px 310px;
+    gap: 50px 25%;
 }
 
 .footerblocksection{
