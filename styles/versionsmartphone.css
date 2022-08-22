@@ -214,22 +214,26 @@ header{
     gap: 0;
     width: 100%;
     margin: 0;
+    height: auto;
 }
 
         /* Classic accomodations block */
 #classicaccomodations{
     width: 100%;
+    height: 1500px;
     background-color: white;
     gap: 15px 60px;
-    
 }
 
 #classicaccomodationstitle{
-    width: 450px;
+    width: 59%;
+    margin-left: 0;
+    font-size: 160%;
 }
 
 .classicaccomodationscards{
-    width: 450px;
+    width: 59%;
+    height: 13%;
 }
 
 .classicpictures img{
@@ -237,87 +241,109 @@ header{
 }
 
 #classicaccomodationslink{    
-    width: 450px;  
+    width: 59%;  
 }
 
+.classicpicturestitle{
+    font-size: 90%;
+}
+
+.classicpicturesnight{
+    font-size: 100%;
+}
+
+.classicpicturesreviews{
+    font-size: 85%;
+}
         /* Popular accomodations block */
 #popularaccomodations{
     width: 100%;
     gap: 15px 60px;
     border-radius: 0;
-    padding-bottom: 45px;
+    padding-bottom: 7%;
+    height: 500px;
 }
 
 #popularaccomodationstitleblock{
-    width: 450px;
+    width: 59%;
+    font-size: 140%;
+    margin-bottom: 1%;
 }
 
 .popularaccomodationscards{
-    width: 450px;
+    width: 59%;
+    height: 28%;
 }
 
 .popularpictures{
-    max-width: 150px;
-    padding: 14.75%;
+    width: 30%;
 }
 .popularpictures img{
     width: 150%;        
 }
 
+.popularpicturestitle{
+    font-size: 90%;
+}
+
+.popularpicturesnight{
+    font-size: 100%;
+}
+
+.popularpicturesreviews{
+    font-size: 85%;
+}
+
                         /* Activities Block */
 #activitiesblock{
-    width: 80%;
-    margin: auto;
-    justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    height: auto;
     gap: 40px 0;
 }
 
 #activitiesblocktitle{
-    width: 450px;
+    width: 59%;
     margin: 0;
-    margin-bottom: 20px;
-    font-size: 120%;
+    margin-left: 20%;
+    font-size: 160%;
 }
                 /* First Activities Block */
 #firstactivitiesblock{
     width: 100%;
-    height: auto;
+    height: 680px;
     flex-direction: row;
     justify-content: center;
     gap: 40px 0;
 }
             /* Activity One */
 #activityone{
-    height: 200px;
-    width: 450px;
+    height: 29%;
+    width: 59%;
     margin-right: 0;
 }
 
 #activityonepicture{
-    height: 150px;
+    height: 75%;
 }
 
             /* Activity Two */
 #activitytwo{
-    height: 200px;
-    width: 450px;
+    height: 29%;
+    width: 59%;
     margin-right: 0;
 }
 
 #activitytwopicture{
-    height: 150px;
+    height: 75%;
 }
             /* Activity Three */
 #activitythree{
-    height: 200px;
-    width: 450px;
+    height: 29%;
+    width: 59%;
     margin-right: 0;
 }
 
 #activitythreepicture{
-    height: 150px;
+    height: 75%;
 }
                 /* Second Activities Block */
 #secondactivitiesblock{
@@ -330,32 +356,32 @@ header{
             /* Activity Four */
 #activityfour{
     height: 200px;
-    width: 450px;
+    width: 59%;
     margin-right: 0;
 }
 
 #activityfourpicture{
-    height: 150px;
+    height: 75%;
 }
             /* Activity Five */
 #activityfive{
     height: 200px;
-    width: 450px;
+    width: 59%;
     margin-right: 0;
 }
 
 #activityfivepicture{
-    height: 150px;
+    height: 75%;
 }
             /* Activity Six */
 #activitysix{
     height: 200px;
-    width: 450px;
+    width: 59%;
     margin-right: 0;
 }
 
 #activitysixpicture{
-    height: 150px;
+    height: 75%;
 }
 
 .activitiesquote{
@@ -365,7 +391,7 @@ header{
 
             /* Footer Block */
 #footerblock{
-    width: 450px;
+    width: 59%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -382,10 +408,10 @@ header{
 .footerblocksection a{
     font-family: 'Raleway-Regular', 'Times New Roman', Times, serif;
     font-weight: 800;
-    font-size: 90%;
+    font-size: 110%;
 }
 
 .footertitle{
-    font-size: 105%;
+    font-size: 125%;
     margin-bottom: 10px;
 }

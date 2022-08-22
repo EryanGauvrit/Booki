@@ -67,12 +67,12 @@ nav{
                 /* Search Form */
 
 #searchformblock{
-    margin-top: 30px;
+    margin-top: 5%;
 }
 
 #searchtitle{
     font-size: 120%;
-    margin: 0 0 10px 0;
+    margin: 0 0 2% 0;
     font-weight: 800;
 }
 
@@ -80,7 +80,7 @@ nav{
     font-family: 'Raleway-Regular', 'Times New Roman', Times, serif;
     font-size: 90%;
     font-weight: 600;
-    margin-bottom: 25px;
+    margin-bottom: 3%;
 }
 
     /* Search bar */
@@ -131,7 +131,7 @@ nav{
                 /* Filters bar */
 
 #filtersblock{
-    margin-top: 30px;    
+    margin-top: 5%;    
 }
 
 #filterslist{
@@ -160,6 +160,7 @@ nav{
     border: 2px solid #F2F2F2;
     border-left: none;
     border-radius: 50px;
+    transition: 0.3s;
 }
 
 .filterslistlink{
@@ -167,7 +168,16 @@ nav{
     align-items: center;
     text-decoration: none;
     color: black;
-    font-weight: 800;
+    font-weight: 800; 
+    transition: 0.3s;   
+}
+
+.filterslistitem:hover {
+    background-color: #0065FC;    
+}
+
+.filterslistlink:hover{
+    color: white;
 }
 
 #filterstitle{
@@ -209,8 +219,8 @@ nav{
     align-items: center;
     font-size: 100%;
     font-weight: 600;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 6%;
+    margin-bottom: 6%;
 }
 
 #searchresultitem{    
@@ -229,7 +239,7 @@ nav{
 #accomodationsblock{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 30px;
+    height: 500px;
 }
 
             /* Classic accomodations block */
@@ -242,29 +252,29 @@ nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px 20px;
-
+    gap: 5% 5%;
 }
 
             /* Classic Accomodations Title */
 #classicaccomodationstitle{
     font-size: 120%;
-    margin-left: 2%;
+    margin-top: 2.5%;
+    margin-left: 5%;
     width: 100%;
-    margin-bottom: 5px;
+    margin-bottom: 0;
 }
 
             /* Classic Accomodations Cards */
 .classicaccomodationscards{
-    width: 225px;
-    padding: 5px;
+    width: 26%;
+    height: 33%;
+    padding: 0.5%;
+    padding-bottom: 0;
     padding-bottom: 8px;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 0.5px 0.5px 10px black;
-    transition: 0.3s;
-    margin-right: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    transition: 0.3s; 
+    background-color: white;
 } 
 
 .classicaccomodationscards a{
@@ -273,53 +283,54 @@ nav{
 }
 
 .classicaccomodationscards:hover {
-    width: 230px;
-    height: 194px;
+    width: 26.5%;
+    height: 33.5%;
     box-shadow: 1px 1px 13px black;
 }
 
 .classicpictures{
-    height: 100px;
+    height: 60%;
     position: relative;
     overflow: hidden;    
     border-radius: 15px 15px 0 0;
 }
 
 .classicpictures img{
-    width: 110%;
+    width: 145%;
     position: absolute;    
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.classicpicturesquote{    
-    margin-top: 5px;
-    margin-left: 5px;    
+.classicpicturesquote{  
+    height: 40%;  
+    margin-top: 0.5%;
+    margin-left: 2%;    
 }
 
 .classicpicturestitle{
-    margin-top: 7px;
-    margin-bottom: 5px;
-    font-size: 80%;
+    margin-top: 3%;
+    margin-bottom: 0%;
+    font-size: 70%;
     font-weight: 800;
 }
 
 .classicpicturesnight{
-    font-size: 90%;
-    margin-bottom: 7px;
+    font-size: 80%;
+    margin-bottom: 0;
 }
 
 .classicpicturesreviews{
     display: flex;
-    font-size: 75%;
-    margin-top: 3px;
+    font-size: 65%;
+    margin-top: 2%;
     color: #0065FC;
 }
 
             /* Classic Accomodations show more link */
 #classicaccomodationslink{
-    margin-left: 2%;
+    margin-left: 5%;
     margin-top: 10px;     
     width: 100%;  
 }
@@ -340,16 +351,16 @@ nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px 20px;    
+    gap: 5% 5%;  
 } 
 
                 /* Popular Accomodations Title */
 #popularaccomodationstitleblock{
     display: flex;
-    width: 100%;
+    width: 80%;
     justify-content: space-between;
     align-items: baseline;
-    margin-bottom: 5px;
+    margin-top: 2.5%;
 }
 
 #popularaccomodationstitle{
@@ -362,14 +373,14 @@ nav{
 
                 /* Popular Accomodations Cards */
 .popularaccomodationscards{  
-    width: 340px;
-    height: 140px;
+    width: 83%;
+    height: 24%;
     padding: 5px;
+    display: flex;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 0.5px 0.5px 10px black;
     transition: 0.3s; 
-    margin-top: 5px;  
-    margin-bottom: 5px;
+    background-color: white;  
 }
 
 .popularaccomodationscards a{
@@ -378,23 +389,21 @@ nav{
 }
 
 .popularaccomodationscards:hover {
-    width: 345px;
-    height: 145px;
+    width: 83.5%;
+    height: 24.5%;
     box-shadow: 1px 1px 13px black;
 }
 
 .popularpictures{
-    height: 100%;
-    max-width: 120px;
+    width: 40%;
     position: relative;
     overflow: hidden;    
     border-radius: 15px 0 0 15px;
-    margin-right: 10px;
-    padding: 19.5%;
+    margin-right: 3%;
 }
 
 .popularpictures img{
-    width: 150%;
+    width: 250%;
     position: absolute;    
     left: 50%;
     top: 50%;
@@ -402,48 +411,47 @@ nav{
 }
 
 .popularpicturesquote{
-    width: 150px;
-    margin-top: 5px;
-    margin-left: 5px;        
+    width: 60%;    
 }
 
 .popularpicturestitle{
-    font-size: 80%;
+    font-size: 70%;
     font-weight: 800;
-    margin-bottom: 5px;
+    margin-bottom: 2%;
 }
 
 .popularpicturesnight{
-    font-size: 90%;
+    font-size: 80%;
 }
 
 .popularpicturesreviews{
     display: flex;
-    font-size: 75%;
-    margin-top: 30%;
+    font-size: 65%;
+    margin-top: 15%;
     color: #0065FC;
 }
 
                     /* Activities Block */
 #activitiesblock{
+    height: 450px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 6%;
+    margin-bottom: 6%;
 }
 
 #activitiesblocktitle{
     margin: 0;
-    margin-bottom: 20px;
+    margin-bottom: 3%;
     width: 100%;
     font-size: 120%;
 }
                 /* First Activities Block */
 #firstactivitiesblock{
     width: 48%;
-    height: 400px;
+    height: 89%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -453,27 +461,27 @@ nav{
             /* Activity One */
 #activityone{
     height: 100%;
-    width: 300px;
+    width: 48%;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 0.5px 0.5px 10px black;
-    margin-right: 30px;
+    margin-right: 5%;
     transition: 0.3s;
 }
 
 #activityone:hover{
-    width: 305px;
+    width: 48.5%;
     box-shadow: 1px 1px 13px black;
 }
 
 #activityonepicture{
-    height: 350px;
+    height: 90%;
     position: relative;
     overflow: hidden;    
     border-radius: 15px 15px 0 0;
 }
 
 #activityonepicture img{
-    width: 190%;
+    width: 290%;
     position: absolute;    
     top: 50%;
     left: 50%;
@@ -482,20 +490,20 @@ nav{
 
             /* Activity Two */
 #activitytwo{
-    height: 215px;
-    width: 300px;
+    height: 54%;
+    width: 48%;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 0.5px 0.5px 10px black;
     transition: 0.3s;
 }
 
 #activitytwo:hover{
-    width: 305px;
+    width: 48.5%;
     box-shadow: 1px 1px 13px black;
 }
 
 #activitytwopicture{
-    height: 165px;
+    height: 80%;
     position: relative;
     overflow: hidden;    
     border-radius: 15px 15px 0 0;
@@ -510,20 +518,20 @@ nav{
 }
             /* Activity Three */
 #activitythree{
-    height: 145px;
-    width: 300px;
+    height: 36%;
+    width: 48%;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 0.5px 0.5px 10px black;
     transition: 0.3s;
 }
 
 #activitythree:hover{
-    width: 305px;
+    width: 48.5%;
     box-shadow: 1px 1px 13px black;
 }
 
 #activitythreepicture{
-    height: 95px;
+    height: 72%;
     position: relative;
     overflow: hidden;    
     border-radius: 15px 15px 0 0;    
@@ -540,7 +548,7 @@ nav{
                 /* Second Activities Block */
 #secondactivitiesblock{
     width: 48%;
-    height: 400px;
+    height: 89%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -550,27 +558,27 @@ nav{
             /* Activity Four */
 #activityfour{
     height: 100%;
-    width: 300px;
+    width: 48%;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 0.5px 0.5px 10px black;
-    margin-right: 30px;
+    margin-right: 5%;
     transition: 0.3s;
 }
 
 #activityfour:hover{
-    width: 305px;
+    width: 48.5%;
     box-shadow: 1px 1px 13px black;
 }
 
 #activityfourpicture{
-    height: 350px;
+    height: 90%;
     position: relative;
     overflow: hidden;    
     border-radius: 15px 15px 0 0;
 }
 
 #activityfourpicture img{
-    width: 190%;
+    width: 300%;
     position: absolute;    
     top: 50%;
     left: 50%;
@@ -578,27 +586,27 @@ nav{
 }
             /* Activity Five */
 #activityfive{
-    height: 170px;
-    width: 300px;
+    height: 42%;
+    width: 48%;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 0.5px 0.5px 10px black;
     transition: 0.3s;
 }
 
 #activityfive:hover{
-    width: 305px;
+    width: 48.5%;
     box-shadow: 1px 1px 13px black;
 }
 
 #activityfivepicture{
-    height: 125px;
+    height: 77%;
     position: relative;
     overflow: hidden;    
     border-radius: 15px 15px 0 0;
 }
 
 #activityfivepicture img{
-    width: 100%;
+    width: 150%;
     position: absolute;    
     top: 50%;
     left: 50%;
@@ -606,27 +614,27 @@ nav{
 }
             /* Activity Six */
 #activitysix{
-    height: 190px;
-    width: 300px;
+    height: 47%;
+    width: 48%;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 0.5px 0.5px 10px black;
     transition: 0.3s;
 }
 
 #activitysix:hover{
-    width: 305px;
+    width: 48.5%;
     box-shadow: 1px 1px 13px black;
 }
 
 #activitysixpicture{
-    height: 140px;
+    height: 80%;
     position: relative;
     overflow: hidden;    
     border-radius: 15px 15px 0 0;
 }
 
 #activitysixpicture img{
-    width: 100%;
+    width: 150%;
     position: absolute;    
     top: 50%;
     left: 50%;
@@ -636,15 +644,16 @@ nav{
 .activitiesquote{
     margin-top: 5%;
     margin-left: 6%;
+    font-size: 75%;
 }
 
             /* Footer */
 footer{
     width: 100%;
     background-color: #F2F2F2;
-    margin-top: 40px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    margin-top: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     
 }
 
@@ -653,7 +662,7 @@ footer{
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    gap: 50px 25%;
+    gap: 0 20%;
 }
 
 .footerblocksection{
@@ -670,7 +679,7 @@ footer{
 
 .footertitle{
     font-size: 105%;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 
@@ -687,9 +696,6 @@ strong{
 
 p{
     font-family: 'Raleway-Regular', 'Times New Roman', Times, serif;
-}
-.alignitems{    
-    display: flex;      
 }
 
 ul{
